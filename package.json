@@ -1,0 +1,45 @@
+{
+  "name": "defillama-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for DefiLlama — live DeFi data (chain & protocol TVL, token prices, yield pools, stablecoins) for Claude, Cursor, and any MCP client. No API key required.",
+  "type": "module",
+  "bin": {
+    "defillama-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "defillama",
+    "defi",
+    "tvl",
+    "yield",
+    "stablecoins",
+    "crypto",
+    "claude",
+    "cursor",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.0"
+  }
+}
