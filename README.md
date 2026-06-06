@@ -88,4 +88,11 @@ MIT — see [LICENSE](./LICENSE).
 
 ---
 
-Built by Gleb. Need an MCP connector for a specific tool or API? Open an issue.
+## Hire me
+
+I build custom MCP servers and AI systems (multi-agent, RAG, automation). Need a connector for your own API, or a full AI integration?
+
+- Hire me on Upwork: https://www.upwork.com/freelancers/~01946645ed245c263d
+- Or open an issue on this repo.
+
+Built by Gleb.

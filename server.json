@@ -1,17 +1,17 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.glebenjoy/defillama-mcp",
-  "description": "Live DeFi data from DefiLlama (chain & protocol TVL, token prices, yield pools, stablecoins) for Claude, Cursor, and any MCP client. No API key required.",
-  "version": "1.0.0",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Glebenjoy/defillama-mcp",
+  "description": "DefiLlama DeFi data: chain/protocol TVL, yields, stablecoins, token prices. No API key.",
   "repository": {
     "url": "https://github.com/Glebenjoy/defillama-mcp",
     "source": "github"
   },
+  "version": "1.0.2",
   "packages": [
     {
-      "registry_type": "npm",
+      "registryType": "npm",
       "identifier": "defillama-mcp",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "transport": {
         "type": "stdio"
       }
